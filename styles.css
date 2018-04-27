@@ -126,7 +126,8 @@ footer {
   margin: auto;
 }
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 767px) {
   body {
     width: 100%;
   }
@@ -136,30 +137,37 @@ footer {
   }
   main {
     width: 100%;
-    /*padding: 1px;*/
   }
   header {
     overflow: auto;
+    margin-bottom: -20px;
   }
   .about {
-    width: 458px;
+    width: 90%;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     overflow: hidden;
-
+    display: block;
+  }
+  .project-section {
+    display: block;
+    width: 100%;
   }
   .project {
-    width: 85%;
+    display: block;
+    width: 90%;
     margin-top: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
   }
   .project-descrip {
     height: auto;
+    display: block;
   }
+
   #sub-heading {
     display: inline-block;
     font-size: 1em;
@@ -167,11 +175,15 @@ footer {
     float: right;
   }
   #profile-pic {
-
+    display: block;
     width: 430px;
     border: 5px solid #c0c0c0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
   }
 }
+
 
 @media screen and (max-width: 480px) {
   body {
